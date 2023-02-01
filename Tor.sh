@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#install and use the Tor proxy for internet traffic
+
 # Update the package list and install Tor
 sudo apt-get update
 sudo apt-get install tor -y
