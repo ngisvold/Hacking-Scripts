@@ -1,3 +1,6 @@
+# Flush the DNS cache before securing host file.
+Clear-DnsClientCache
+
 # Variables to hold the path of the hosts file and the security descriptor
 $hostsFile = "C:\Windows\System32\drivers\etc\hosts"
 $securityDescriptor = "D:(A;OICI;GA;;;SY)(A;OICI;GA;;;BA)"
