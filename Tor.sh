@@ -5,7 +5,7 @@
 # Update the package list and install Tor
 sudo apt-get update
 sudo apt-get install tor -y
-sudo apt-get install tor proxychains
+sudo apt-get install tor proxychains4
 
 # Start the Tor service
 sudo service tor start
@@ -16,3 +16,5 @@ export https_proxy="socks5://127.0.0.1:9050"
 
 # Test internet connection using curl command
 curl --silent https://check.torproject.org/ | grep Congratulations
+
+Print("Update Proxy List: /etc/proxychains4.conf")
