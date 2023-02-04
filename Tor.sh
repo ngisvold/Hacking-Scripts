@@ -5,6 +5,7 @@
 # Update the package list and install Tor
 sudo apt-get update
 sudo apt-get install tor -y
+sudo apt-get install tor proxychains
 
 # Start the Tor service
 sudo service tor start
